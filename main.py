@@ -13,7 +13,7 @@ while True:
     # Turn the LED on
     led_pin.on()
     # Print a message to the serial monitor
-    print('LED ON\n'.encode())
+    print('LED ON\n')
     # Wait for 1 second
     time.sleep(1)
     # Turn the LED off
