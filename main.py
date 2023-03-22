@@ -10,7 +10,7 @@ led_pin = machine.Pin(2, machine.Pin.OUT)
 
 # Loop forever
 #while True:
-for i in range(10):
+for i in range(4):
     # Turn the LED on
     led_pin.on()
     # Print a message to the serial monitor
@@ -25,4 +25,4 @@ for i in range(10):
     time.sleep(0.2)
     
 import ugit
-ugit.pull_all()
+update()
