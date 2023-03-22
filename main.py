@@ -23,6 +23,6 @@ for i in range(5):
     print('LED OFF_ota_main_py\n')
     # Wait for 1 second
     time.sleep(1)
-
-    import ugit
-    ugit.pull_all()
+    
+import ugit
+ugit.pull_all()
