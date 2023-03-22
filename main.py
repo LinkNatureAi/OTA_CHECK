@@ -10,19 +10,19 @@ led_pin = machine.Pin(2, machine.Pin.OUT)
 
 # Loop forever
 #while True:
-for i in range(8):
+for i in range(10):
     # Turn the LED on
     led_pin.on()
     # Print a message to the serial monitor
     print('LED ON\n')
     # Wait for 1 second
-    time.sleep(1)
+    time.sleep(0.3)
     # Turn the LED off
     led_pin.off()
     # Print a message to the serial monitor
     print('LED OFF_ota_main_py\n')
     # Wait for 1 second
-    time.sleep(1)
+    time.sleep(0.2)
     
 import ugit
 ugit.pull_all()
