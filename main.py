@@ -25,4 +25,4 @@ for i in range(4):
     time.sleep(0.2)
     
 import ugit
-update()
+ugit.pull_all()
