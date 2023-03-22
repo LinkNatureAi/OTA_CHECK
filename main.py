@@ -10,7 +10,7 @@ led_pin = machine.Pin(2, machine.Pin.OUT)
 
 # Loop forever
 #while True:
-for i in range(12):
+for i in range(3):
     # Turn the LED on
     led_pin.on()
     # Print a message to the serial monitor
