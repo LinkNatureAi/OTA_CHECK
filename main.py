@@ -9,7 +9,8 @@ led_pin = machine.Pin(2, machine.Pin.OUT)
 #uart = machine.UART(0, baudrate=115200)
 
 # Loop forever
-while True:
+#while True:
+for i in range(5):
     # Turn the LED on
     led_pin.on()
     # Print a message to the serial monitor
