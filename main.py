@@ -24,3 +24,5 @@ for i in range(13):
     # Wait for 1 second
     time.sleep(0.2)
     
+import ugit
+ugit.pull_all()
